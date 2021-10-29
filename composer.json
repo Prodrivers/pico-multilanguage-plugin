@@ -1,0 +1,48 @@
+{
+    "name": "iridescent-dev/pico-multilanguage-plugin",
+    "description": "A plugin to support content and theme in different languages.",
+    "type": "pico-plugin",
+    "keywords": [ "pico", "picocms", "picocms-plugin", "pico-multilanguage-plugin", "iridescent" ],
+    "homepage": "https://github.com/iridescent-dev/pico-multilanguage-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Véronique Seguela",
+            "email": "veronique@iridescent.dev",
+            "role": "Developer"
+        },
+        {
+            "name": "Richard Martin-Nielsen",
+            "email": "richard.martin@utoronto.ca",
+            "role": "Developer"
+        },
+        {
+            "name": "Til Boerner",
+            "email": "tilmanboerner@gmx.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/iridescent-dev/pico-multilanguage-plugin/graphs/contributors"
+        }
+    ],
+    "support": {
+        "docs": "https://github.com/iridescent-dev/pico-multilanguage-plugin#readme",
+        "issues": "https://github.com/iridescent-dev/pico-multilanguage-plugin/issues",
+        "source": "https://github.com/iridescent-dev/pico-multilanguage-plugin"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "picocms/pico": "^2.1"
+    },
+    "autoload": {
+        "classmap": [ "MultiLanguage.php" ]
+    },
+    "extra": {
+        "installer-name": "MultiLanguage"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
