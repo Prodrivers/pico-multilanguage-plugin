@@ -243,7 +243,7 @@ class MultiLanguage extends AbstractPicoPlugin
 
         // set page.language, page.is_current_language and page.id
         $pageData['language'] = $language;
-        $pageData['is_current_language'] = $language === $this->current_language;
+        $pageData['is_current_language'] = $language === '' || $language === $this->current_language;
         $pageData['pid'] = $page_id;
 
         // edit page.date_formatted
